@@ -21,7 +21,7 @@ Precisamos falar sobre mulheres que mudaram o mundo.
 
 - Clonar este repositório: `git clone https://github.com/reprograma/On2-projeto-final.git`
 - Crie sua branch: `git checkout -b seuNome`, ex: `git checkout -b fulanaSilva`
-- Adicione uma pasta com seu-nome dentro da pasta `mulheres-maravilha`, ex: _cintia-fumi_
+- Adicione uma pasta com seu-nome dentro da pasta `mulheres-maravilha`, ex: _danielle-naomi_
 - Dentro da pasta com seu-nome, crie um arquivo html com o nome da mulher-maravilha, ex: _ada-lovelace.html_
 - Além do arquivo html, crie as pastas para imagens, css e javascript, seguindo o padrão abaixo. *importante não alterar esse padrão*
 ```
@@ -94,8 +94,6 @@ mulheres-maravilha/
   - Digite no Git Bash `ipconfig` ou `ipconfig //all`
   - Verifique o endereço IPv4. Deverá ser similar a: `192.168.X.X`
 
-<img>
-
 Ou...
 
 - **Windows 10**: verifique seu IP conforme [instruções](https://support.microsoft.com/pt-br/help/4026518/windows-10-find-your-ip-address);
@@ -104,7 +102,7 @@ Ou...
 ### Verificando seu site pelo navegador do celular
 
 - Deixar o notebook e o celular conectados na mesma rede privada de internet (WiFi ou Dados).
-- No navegador do seu celular, digite o endereço do seu IP seguido do número da porta aberta pelo Live Server `númeroIP:númeroPorta`, ex: `192.168.X.XX:5500`
+- No navegador do seu celular, digite o endereço do seu IP seguido do número da porta aberta pelo Live Server `númeroIP:númeroPorta`, ex: `192.168.X.X:5500`
 
 Obs: Se estiver usando uma rede pública de internet, talvez não seja possível acessar o projeto desta maneira. Se este for o caso, uma solução seria compartilhar sua rede de dados com seu notebook.
 
