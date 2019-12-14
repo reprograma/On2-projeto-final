@@ -46,7 +46,7 @@ mulheres-maravilha/
     6. Uso de ao menos 1 eventlistener (javascript)
 - O objetivo é praticar HTML, CSS (com ou sem Bootstrap), responsividade, efeitos com JS ou JQuery
 
-- **Atenção**: Não esqueça de atualizar a Home! Alterar somente em `index.html` onde houver seu nome - Substitua o link na href, a imagem da sua mulher inspiradora, o alt da imagem e "Seu nome" pelo nome da sua maravilhosa: 
+- Não esqueça de atualizar a Home! Alterar somente em `index.html` onde houver seu nome - Substitua o link na href, a imagem da sua mulher inspiradora, o alt da imagem e "Seu nome" pelo nome da sua maravilhosa: 
 ```
 <div class="maravilhosas__perfil">
     <a href="./mulheres-maravilha/sua-pasta/seu-html.html">
@@ -54,8 +54,8 @@ mulheres-maravilha/
             <p>"Seu nome"</p>
 ```
 
-*ATENÇÃO*
-1. A entrega do projeto é obrigatória para obter o certificado do curso <o>
+**ATENÇÃO**
+1. A entrega do projeto é obrigatória para obter o certificado do curso ಠoಠ
 2. O projeto deve ser entregue até sexta-feira (20/12), porém se conseguirem entregar até antes da aula de quinta (19/12), vocês poderão acompanhar o merge e deploy da sua página ! <3
 
 
