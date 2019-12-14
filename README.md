@@ -4,8 +4,9 @@
 
 Precisamos falar sobre mulheres que mudaram o mundo. 
 
-- [Like a girl](https://youtu.be/XjJQBjWYDTs)
-- [Microsoft](https://youtu.be/tNqSzUdYazw)
+- [Like a girl - Always](https://youtu.be/XjJQBjWYDTs)
+- [Make what's next - Microsoft](https://youtu.be/tNqSzUdYazw)
+- [Mulheres na tecnologia - Le Wagon](https://www.youtube.com/watch?v=fOJ-KKtzDXI)
 - Projeto da [turma anterior](https://reprograma.github.io/CursoOnline-Aula8-Projeto/)
 
 
@@ -37,12 +38,12 @@ mulheres-maravilha/
       background.jpg
 ```
 - Recomendações para sua página:
-            - faça uso de html semântico 
-            - mantenha um padrão na nomeação das classes 
-            - página responsiva 
-            - mínimo de 2 sections
-            - NAVBAR e FOOTER podem ser iguais aos da pagina principal. 
-            - Uso de ao menos 1 eventlistener(javascript)
+            1. faça uso de html semântico 
+            2. mantenha um padrão na nomeação das classes 
+            3. página responsiva 
+            4. mínimo de 2 sections
+            5. NAVBAR e FOOTER podem ser iguais aos da pagina principal. 
+            6. Uso de ao menos 1 eventlistener (javascript)
 - O objetivo é praticar HTML, CSS (com ou sem Bootstrap), responsividade, efeitos com JS ou JQuery
 
 - **Atenção**: Não esqueça de atualizar a Home! Alterar somente em `index.html` onde houver seu nome - Substitua o link na href, a imagem da sua mulher inspiradora, o alt da imagem e "Seu nome" pelo nome da sua maravilhosa: 
@@ -54,7 +55,7 @@ mulheres-maravilha/
 ```
 
 *ATENÇÃO*
-1. A entrega do projeto é obrigatória para obter o certificado do curso 
+1. A entrega do projeto é obrigatória para obter o certificado do curso <o>
 2. O projeto deve ser entregue até sexta-feira (20/12), porém se conseguirem entregar até antes da aula de quinta (19/12), vocês poderão acompanhar o merge e deploy da sua página ! <3
 
 
@@ -126,11 +127,11 @@ Obs: Se estiver usando uma rede pública de internet, talvez não seja possível
 
 ## Revisão CSS 
 
- Vamos relembrar um pouco sobre as especificidades do CSS (https://www.w3schools.com/CSS/css_specificity.asp)
+ Vamos relembrar um pouco sobre as especificidades do CSS (https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
- linear-gradiente:
- * doc - (https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient)
- * example com imagem - (https://codepen.io/natalyapeixoto/pen/pBxYML)
+ linear-gradient:
+ * documentação - (https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient)
+ * exemplo com imagem - (https://codepen.io/natalyapeixoto/pen/pBxYML)
 
  * background-attachment: (https://css-tricks.com/almanac/properties/b/background-attachment/)
 
