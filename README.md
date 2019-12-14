@@ -55,7 +55,7 @@ mulheres-maravilha/
 ```
 
 **ATENÇÃO**
-1. A entrega do projeto é obrigatória para obter o certificado do curso ಠoಠ
+1. A entrega do projeto é obrigatória para obter o certificado do curso (ಠoಠ)
 2. O projeto deve ser entregue até sexta-feira (20/12), porém se conseguirem entregar até antes da aula de quinta (19/12), vocês poderão acompanhar o merge e deploy da sua página ! <3
 
 
@@ -127,12 +127,8 @@ Obs: Se estiver usando uma rede pública de internet, talvez não seja possível
 
 ## Revisão CSS 
 
- Vamos relembrar um pouco sobre as especificidades do CSS (https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-
- linear-gradient:
- * documentação - (https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient)
- * exemplo com imagem - (https://codepen.io/natalyapeixoto/pen/pBxYML)
-
+ * documentação geral: (https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+ * linear-gradient: (https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient)
  * background-attachment: (https://css-tricks.com/almanac/properties/b/background-attachment/)
 
 
