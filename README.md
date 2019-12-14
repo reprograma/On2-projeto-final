@@ -38,12 +38,12 @@ mulheres-maravilha/
       background.jpg
 ```
 - Recomendações para sua página:
-            1. faça uso de html semântico 
-            2. mantenha um padrão na nomeação das classes 
-            3. página responsiva 
-            4. mínimo de 2 sections
-            5. NAVBAR e FOOTER podem ser iguais aos da pagina principal. 
-            6. Uso de ao menos 1 eventlistener (javascript)
+    1. faça uso de html semântico 
+    2. mantenha um padrão na nomeação das classes 
+    3. página responsiva 
+    4. mínimo de 2 sections
+    5. NAVBAR e FOOTER podem ser iguais aos da pagina principal
+    6. Uso de ao menos 1 eventlistener (javascript)
 - O objetivo é praticar HTML, CSS (com ou sem Bootstrap), responsividade, efeitos com JS ou JQuery
 
 - **Atenção**: Não esqueça de atualizar a Home! Alterar somente em `index.html` onde houver seu nome - Substitua o link na href, a imagem da sua mulher inspiradora, o alt da imagem e "Seu nome" pelo nome da sua maravilhosa: 
