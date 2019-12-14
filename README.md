@@ -4,8 +4,9 @@
 
 Precisamos falar sobre mulheres que mudaram o mundo. 
 
-- [Like a girl](https://youtu.be/XjJQBjWYDTs)
-- [Microsoft](https://youtu.be/tNqSzUdYazw)
+- [Like a girl - Always](https://youtu.be/XjJQBjWYDTs)
+- [Make what's next - Microsoft](https://youtu.be/tNqSzUdYazw)
+- [Mulheres na tecnologia - Le Wagon](https://www.youtube.com/watch?v=fOJ-KKtzDXI)
 - Projeto da [turma anterior](https://reprograma.github.io/CursoOnline-Aula8-Projeto/)
 
 
@@ -126,11 +127,11 @@ Obs: Se estiver usando uma rede pública de internet, talvez não seja possível
 
 ## Revisão CSS 
 
- Vamos relembrar um pouco sobre as especificidades do CSS (https://www.w3schools.com/CSS/css_specificity.asp)
+ Vamos relembrar um pouco sobre as especificidades do CSS (https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
- linear-gradiente:
- * doc - (https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient)
- * example com imagem - (https://codepen.io/natalyapeixoto/pen/pBxYML)
+ linear-gradient:
+ * documentação - (https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient)
+ * exemplo com imagem - (https://codepen.io/natalyapeixoto/pen/pBxYML)
 
  * background-attachment: (https://css-tricks.com/almanac/properties/b/background-attachment/)
 
