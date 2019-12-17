@@ -7,6 +7,8 @@ html {
 }
 
 body {
+  background-image: url(https://1.bp.blogspot.com/-_JnF4FO6PT4/XCrVxghYx3I/AAAAAAAAVOg/jTsKd9N7UscxViwSDk9lPqks1z-5CQiiwCLcBGAs/s2560/malala_yousafzai_4k_8k-2560x1440.jpg);
+  background-color: black;
   font-family: 'Roboto Slab', 'Trebuchet MS', Arial, sans-serif;
   margin: 0;
 }
@@ -140,8 +142,16 @@ li {
 }
 
 /* CONTEUDO */
+.header{
+  color: white;
+  font-family: Montserrat;
+}
+.sobre{
+  color: white;
+}
 .frase{
-  max-width: 250px;
+  max-width: 400px;
+  font-family: Montserrat;
 }
 .sobre_malala{
   margin: auto;
@@ -149,20 +159,64 @@ li {
 }
 
 .historia{
+  max-width: 100%;
   padding: 0rem 0 0 0;
   padding-right: 20rem;
   display: flex;
-}
-
-p {
   max-width: 500px;
   padding-right: 20px;
   text-align: justify;
   font-size: 12px;
   font-family: Montserrat;
 }
-.fotomalala1 {
-  max-width:100% !important;
+
+.fotoMalala1 {
+  width: 20%;
+  height: 20%;
+}
+
+/* Segunda parte do conteudo, links */
+.projetos_title,  .titles{
+  color: #B3B2B2;
+  text-align: center;
+  padding: 20px;
+}
+.projetos_site{
+  margin: auto;
+  display: flex;
+}
+.projetos{
+  margin: auto;
+  height: 60vh;
+}
+.site_img{
+  margin-left: 70px;
+  object-fit: cover;
+  height: 150px;
+  border-radius: 20%;
+}
+.site_title{
+  font-family: Montserrat;
+  color: white;
+  width: 90%;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.btn{
+  padding: 30px;
+  text-align: center;
+}
+.btn_link{
+  color: white;
+  background-color: #eab41e;
+  border-radius: 1rem;;
+  padding: 10px;
+  margin-top: 18px;
+  font-size: 0.87rem;
+  margin-bottom: 21px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 /* --- FOOTER --- */
 .rodape {
