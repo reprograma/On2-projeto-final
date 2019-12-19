@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  color: white;
 }
 
 html {
@@ -145,13 +146,15 @@ li {
 .header{
   color: white;
   font-family: Montserrat;
+  margin-left: 20px;
 }
 .sobre{
   color: white;
 }
 .frase{
-  max-width: 400px;
+  max-width: 700px;
   font-family: Montserrat;
+  font-size: 13px;
 }
 .sobre_malala{
   margin: auto;
@@ -159,15 +162,17 @@ li {
 }
 
 .historia{
-  max-width: 100%;
+  max-width: 600px;
   padding: 0rem 0 0 0;
   padding-right: 20rem;
-  display: flex;
-  max-width: 500px;
   padding-right: 20px;
   text-align: justify;
   font-size: 12px;
   font-family: Montserrat;
+  line-height: 1.7;
+}
+.icone_livro{
+  padding-left: 200px;
 }
 
 .fotoMalala1 {
@@ -189,11 +194,20 @@ li {
   margin: auto;
   height: 60vh;
 }
+.titulo_img{
+  color: white;
+  font-size: 14px;
+  font-family: Montserrat;
+}
 .site_img{
   margin-left: 70px;
+  margin-top: 20px;
   object-fit: cover;
   height: 150px;
-  border-radius: 20%;
+  border: solid 2px;
+  border-color: white;
+  border-radius: 5%;
+  box-shadow: 3px 5px 15px 5px black;
 }
 .site_title{
   font-family: Montserrat;
@@ -201,22 +215,114 @@ li {
   width: 90%;
   margin-top: 20px;
   text-align: justify;
+  line-height: 1.7;
+}
+/* --- AUTORA --- */
+.secao-autora {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.btn{
-  padding: 30px;
-  text-align: center;
+.secao-autora__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  border-radius: 5px;
 }
-.btn_link{
+
+.arrow {
+  cursor: pointer;
+  width: 0;
+  height: 0;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #63458a;
+  transition: all 0.5s;
+}
+
+.arrow-close {
+  cursor: pointer;
+  transition: all 0.5s;
+  width: 0;
+  height: 0;
+  border-bottom: 10px solid #63458a;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid transparent;
+  margin-bottom: 25px;
+}
+
+.secao-autora__foto a:hover {
+  opacity: 0.8;
+}
+
+.secao-autora__dados {
+  color: #63458a;
+  font-family: Montserrat;
+}
+
+.secao-autora__dados p {
+  margin: 15px;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.secao-autora__dados span {
+  font-size: 14px;
+}
+
+.secao-autora a {
+  font-style: italic;
+  text-decoration: underline;
+}
+.secao-autora__about {
+  background-color: rgb(248, 205, 248);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.secao-autora__about img {
+  border-radius: 8px;
+  width: 75px;
+  height: 110px;
+  margin: 10px;
+}
+
+.secao-autora__about p {
+  line-height: 23px;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.closed {
+  display: none;
+  transition: all 1s;
+}
+.opened {
+  display: flex;
+  transition: all 1s;
+}
+
+.secao-cta {
+  text-align: right;
+  padding: 4rem 4rem;
+}
+
+.secao-cta__btn {
+  padding: 10px 25px;
+  border-radius: 5px;
+  background-color: #674582;
   color: white;
-  background-color: #eab41e;
-  border-radius: 1rem;;
-  padding: 10px;
-  margin-top: 18px;
-  font-size: 0.87rem;
-  margin-bottom: 21px;
-  text-decoration: none;
-  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.secao-cta__btn:hover {
+  opacity: 0.8;
 }
 /* --- FOOTER --- */
 .rodape {
@@ -317,7 +423,7 @@ li {
   /* --- HEADER --- */
   .header {
       text-align: left;
-      padding: 10rem 2.5rem 0 0;
+      padding: 10rem 10rem 0 0;
   }
 
   .principal__titulo {
@@ -333,13 +439,11 @@ li {
   }
 
   /* CONTEUDO */
-
-.historia{
-  padding: 0rem 0 0 0;
-  padding-right: 20rem;
-}
+ .projetos{
+    height: 80vh;
+  }
   /* --- FOOTER --- */
-.rodape {
+  .rodape {
       padding-top: 0;
   }
 
@@ -358,27 +462,26 @@ li {
       font-size: 1.2rem;
   }
 }
-
-/* TABLET PAISAGEM OU LAPTOPS
-@media (min-width: 1024px) {
+/* TABLET PAISAGEM OU LAPTOPS */
+@media (min-width: 1024px){
   .principal {
       max-width: 650px;
   }
 
   .principal__titulo {
       font-size: 3.5rem;
-  } */
-/* } */
+  }
+}
 
 /* DESKTOP */
 @media (min-width: 1440px) {
-  /* .navegacao__box {
+  .navegacao__box {
       max-width: 80%;
   }
 
   .header {
-      min-height: 90vh;
-      padding: 5rem 16rem;
+      min-height: 40vh;
+      padding: 10rem 16rem;
   }
 
   .navegacao__itens li {
@@ -397,4 +500,4 @@ li {
   .container{
       max-width: 1200px;
   }
-} */
+}

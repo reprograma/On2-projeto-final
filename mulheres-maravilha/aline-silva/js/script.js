@@ -1,3 +1,4 @@
+// NAV e Footer
 (function() {
   var menuResponsivo = document.getElementById("menuResponsivo");
   var btnResponsivo = document.getElementById("btnResponsivo");
@@ -24,3 +25,12 @@ window.addEventListener("scroll", function() {
       "transparent";
   }
 });
+
+// Sobre a autora
+const autoraBtn = document.querySelector('.arrow')
+autoraBtn.addEventListener('click', function(e){
+  e.preventDefault()
+  autoraBtn.classList.toggle('arrow-close')
+  const autoraInfo = document.querySelector('.secao-autora__about')
+  autoraInfo.classList.toggle('closed');
+})
