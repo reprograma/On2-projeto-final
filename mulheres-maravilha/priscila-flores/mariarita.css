@@ -564,6 +564,19 @@ iframe  {
         width:430px;
         border-radius: 3px;
     }
+
+    #mulheres-maravilhosas {
+        padding-bottom: 0;
+    }
+    
+    .voluntariado {
+        margin: 60px;
+    }
+
+    #mulheres-maravilhosas > div > p {
+        padding: 0 20px;
+    }
+
     p {
         width: 30vw;
         text-align: justify;
