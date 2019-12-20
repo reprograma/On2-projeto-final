@@ -488,6 +488,13 @@ li {
   .principal__titulo {
       font-size: 3.5rem;
   }
+
+  .projetos_site{
+    display: flex;
+    width: 950px;
+  }
+  .projetos{
+    height: 90vh;
 }
 
 /* DESKTOP */
@@ -512,6 +519,9 @@ li {
 
   .principal__titulo {
       font-size: 4rem;
+  }
+  .projetos_site{
+    display: flex;
   }
 
   .container{

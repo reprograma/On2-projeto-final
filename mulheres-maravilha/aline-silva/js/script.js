@@ -26,6 +26,19 @@ window.addEventListener("scroll", function() {
   }
 });
 
+//Efeito titulo
+let posicao = 0;
+let mensagem = document.getElementById("principal__titulo");
+
+function rola() {
+  document.getElementById("principal__titulo").innerHTML = mensagem.substring(posicao,mensagem,length);
+  posicao++;
+  if (posicao == mensagem.length) {
+    posicao = 0;
+  }
+  setTimeout("rola()", 130);
+}
+
 // Sobre a autora
 const autoraBtn = document.querySelector('.arrow')
 autoraBtn.addEventListener('click', function(e){
