@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Katherine Johnson</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Roboto+Slab:700|Roboto:400,400i"rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="./img/space-shuttle-4-532706.png" type="image/x-icon">
+  <link rel="icon" href="./img/space-shuttle-4-532706.png" type="image/x-icon">
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!--jQuery-->
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="./js/jquery.cntl.min.js"></script>
+</head>
+
+<body>
+  <nav class="navegacao">
+    <div class="navegacao__box container">
+      <iframe src="https://open.spotify.com/embed/playlist/7y7hnyXo4wtBSfigri0vgg" width="80" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media">
+      </iframe>
+      <a class="navegacao__logo" href="index.html">
+        <img class="img-responsive" src="img/logo-white.png" alt="Logo M de Maravilhosa">
+      </a>
+      <div class="navegacao__itens" id="menuResponsivo">
+        <div class="navegacao__nav">
+          <ul>
+            <li>
+              <a href="/index.html">Home</a>
+            </li>
+            <li>
+              <a href="http://www.reprograma.com.br/" target="_blank">Conheça a {reprograma}</a>
+            </li>
+          </ul>
+        </div>
+        <div class="navegacao__redes-sociais">
+          <a href="https://www.facebook.com/ReprogramaBr/" target="_blank">
+            <img src="img/icon-facebook.png" alt="Íconde do Facebook">
+          </a>
+          <a href="https://twitter.com/ReprogramaBr" target="_blank">
+            <img src="img/icon-twitter.png" alt="Ícone do Twitter">
+          </a>
+          <a href="https://www.instagram.com/reprogramabr/" target="_blank">
+            <img src="img/icon-instagram.png" alt="Ícone do Instagram">
+          </a>
+          <a href="https://www.linkedin.com/company/reprogramabr/" target="_blank">
+            <img src="img/icon-linkedin.png" alt="Ícone do LinkedIn">
+          </a>
+        </div>
+      </div>
+      <div class="navegacao__menu-hamburguer" id="btnResponsivo">
+        <a href="#">
+          <img src="img/menu-nav.png" alt="Menu de navegação">
+        </a>
+      </div>
+    </div>
+  </nav>
+  <header class="header">
+    <div class="container">
+      <div class="principal">
+        <h1 class="principal__titulo">Katherine Johnson </br> Heroína da NASA </h1>
+    </div>
+    <button type="button" class="principal__btn btn btn_roxo"><a href ="index.html">Outras Maravilhosas!</a></button>
+  </header>
+  <main>
+    <section class="maravilhosas container" id="mulheres-maravilhosas">
+      <div class="maravilhosas_box">
+        <h3 id="titulo-kathe" onmouseover="big(this)" onmouseout="normal(this)"class="maravilhosas_subtitle">“Do your best, but like it, and then you will do your best.”</h3>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="intro">
+            <h2 class="text-center">Um pouco sobre Katherine</h2>
+            <p>
+              Uma das primeiras mulheres a construir a história da NASA, suas análises tornaram possíveis diversas missões espaciais entre 1961 e 1986 (ano de sua aposentadoria) mas seu trabalho perdura como base fundamental para os programas espaciais da atualidade.
+            </p>
+          </div>
+          <!--Time Line-->
+          <div class="container-fluid">
+            <div class="time_box">
+                <div class="timeline-image-kathe">
+                  <img id="" class="img-circle img-responsive" src="./img/kathe_perfil.jpg" alt="">
+                </div>
+                <div class="timeline-panel-odd">
+                  <div class="timeline-heading">
+                    <h4 class="subheading">Origens</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">
+                      Katherine Coleman nasceu em 26 de agosto de 1918, na cidade de White Sulphur Spring no estado de Virgínia Ocidental. Filha de uma professora e um fazendeiro, aprendeu a ler aos 4 anos sob forte influência de sua mãe.
+                      Desde pequena demonstrou grande paixão e aptidão para os números.
+                      Aos 18 anos ela concluiu seus estudos em Matemática e Frances no West Virginia College com grandes honras e recomendações de seus grandes mentores, incluindo W. W. Schiefflin Claytor (terceiro afro americano a consegui o título de  Ph.D).
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="time_box-2">
+                <div class="timeline-panel-2">
+                  <div class="timeline-heading">
+                    <h4 class="subheading">A professora que contava estrelas...</h4>
+                  </div>
+                  <div class="timeline-body-2">
+                    <p  id="naca" onmouseover="cit(this)" onmouseout="normal2(this)" class="text-muted">
+                      Após sua formatura, em 1938, Katherine trabalhou como professora de matemática, francês e música em uma escola pública em Virginia até meados de 1952.
+                      Mas seu grande sonho sempre foi ser uma pesquisadora, então em 1953 foi aceita como funcionária na NACA (antecessora da NASA) como matemática do Departamento de Navegação e Orientação.
+                    </p>
+                      <img class="img-responsive naca" src="./img/NACA-Logo.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="time_box">
+                <div class="timeline-image-lua">
+                  <img class="img-circle img-responsive" src="./img/pe-lua.jpeg" alt="">
+                </div>
+                <div class="timeline-panel-lua">
+                  <div class="timeline-heading">
+                    <h4 class="subheading">Rumo à Lua!</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">
+                      Em 1958, após o lançamento de Sputnik 1 pelos russos, devido a necessidade dos americanos tomarem a frente na corrida especial a NACA se torna NASA e Katherine se junta a outras mulheres, as “computadores de saia” como elas as chamava, para integrarem a Space Task Force, encarregadas de descobrirem como colocar o homem na lua !
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="time_box">
+                <div id="image-f7" class="timeline-image-f7">
+                  <img class="img-circle img-responsive" src="./img/F7.jpg" alt="">
+                </div>
+                <div id="panel-f7" class="timeline-panel-f7">
+                  <div class="timeline-heading">
+                    <h4 class="subheading">Get the girl to do it!</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">
+                      Katherine realizou a análise de trajetória para a missão de Alan Shepard, primeiro americano a ir ao espaço!
+                      Em 1962 John Glenn requisitou que os cálculos da missão Friendship 7 , primeiramente realizados pelo IBM 7090, fossem refeitos pela equipe de computadores humana, assim junto com seu desktop Katherine refez todos os cálculos e chegou aos mesmos resultados obtidos pelo IBM, a missão foi um sucesso !
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="time_box-apollo">
+                <div class="timeline-image-apollo">
+                  <img class="img-rounded img-responsive" src="./img/_apollo_11.jpg" alt="">
+                </div>
+                <div class="timeline-panel-apollo">
+                  <div class="timeline-heading">
+                    <h4></h4>
+                    <h4 class="subheading">Para o infinito e além ...</h4>
+                  </div>
+                  <div class="timeline-body-apollo">
+                    <p class="text-muted">
+                      Os cálculos de Katherine foram essenciais para o sucesso da Apollo 11, enquanto todos estavam preocupados com o checar na Lua ela estava focada na volta, pois um erro de um gral resultaria na falha de adentrar a orbita terrestre.
+                      Katherine ajudou nos procedimentos de contingencia necessários após o mal funcionamento da Apollo 13.
+                      Atuou no projeto Space Shuttle, Earth Resources Satellite e em planos de missões a Marte.
+                    </p>
+                  </div>
+
+                </div>
+              </div>
+              <button type="button" class="principal__btn btn btn_roxo" data-toggle="modal" data-target="#Youtube">Quero ouvir mais!</button>
+              </div>
+           </div>
+                 <!-- Modal Video -->
+                 <div class="modal fade" id="Youtube" role="dialog">
+                  <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title"> Para ir ao infinito e além ...</h4>
+                      </div>
+                      <div class="modal-body">
+                        <div class="youtube">
+                        <iframe class="vid" src="https://www.youtube.com/embed/D5MaW-elHBs"
+                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen="" style="height: 40%; width: 80%;">
+                        </iframe>
+                      </div>
+                      </div>
+                    </div>
+                      <div class="modal-footer">
+                        <button type="button" class="principal__btn btn btn_roxo" data-toggle="modal" data-target="#SaberMais"> Ir além...</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                      </div>
+                    </div>
+                </div>
+
+                  <!-- Modal Saber Mais -->
+              <div class="modal fade" id="SaberMais" role="dialog">
+                <div class="modal-dialog">
+
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title"> Para ir ao infinito e além ...</h4>
+                    </div>
+                    <div class="modal-body">
+                    <ul class="modal-list">
+                      <h4>Sites para abrir mentes...</h4>
+                        <li class="modal-item">
+                          <a href="https://hackaday.com/2018/02/28/katherine-johnson-computer-to-the-stars/" target="_blanck"> KATHERINE JOHNSON: COMPUTER TO THE STARS </a>
+                        </li>
+                        <li class="modal-item"><a href ="//www.minuteschool.com/2017/04/hidden-figures-katherine-johnson/" target="_blanck">Hidden Figures: Katherine Johnson</a>
+                        </li>
+                        <li class="modal-item"><a href="https://www.nasa.gov/image-feature/mathematician-katherine-johnson-at-work" target="_blanck"> Mathematician Katherine Johnson at Work </a>
+                        </li>
+                        <li class="modal-item"><a href="https://galoa.com.br/blog/quem-foram-3-cientistas-negras-da-nasa-em-estrelas-alem-do-tempo" target="_blanck"> Quem foram as 3 cientistas negras da NASA em “Estrelas Além do Tempo”?  </a>
+                        </li>
+                        <li class="modal-item"><a href="https://guiadoestudante.abril.com.br/orientacao-profissional/conheca-7-mulheres-que-fizeram-historia-na-nasa/" target="_blanck">Conheça 7 mulheres que fizeram história na NASA</a>
+                        </li>
+                        <li class="modal-item">
+                        <a href="https://www.geledes.org.br/historia-das-mulheres-negras-fundamentais-para-viagem-lua/" target="_blanck">A história das mulheres negras fundamentais para a viagem à Lua</a>
+                        </li>
+                      </ul>
+                      <ul class="modal-list-video">
+                         <h4>Vídos para expandir horizontes...</h4>
+                        <li class="modal-item"><a href="https://www.youtube.com/watch?v=FgW2kpNQ7BY" target="_blanck"> Entrevista de Katherine Johnson, Set. 2017</a>
+                        </li>
+                        <li class="modal-item"><a href="https://www.youtube.com/watch?v=hLgjZ3EAeRc" target="_blanck">Mulheres da NASA : passado, presente e futuro.</a>
+                        </li>
+                        </ul>
+                    </div>
+                  </div>
+                    <div class="modal-footer">
+                      <button type="button" class="principal__btn btn btn_roxo" data-dismiss="modal" > Ouvir novamente ! </button>
+                    </div>
+                  </div>
+              </div>
+    </section>
+    <section class="autora">
+      <div class="autora_container">
+        <div class="autora_dados">
+        <a href="https://trooper2123.github.io/portifolio/" target="_blanck"> <p id="eu" onmouseover="autora1(this)" onmouseout="autora2(this)"> {Autora: Tereza Letícia}</p></a>
+        </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="rodape__principal">
+      <ul class="rodape__navegacao">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="http://www.reprograma.com.br/" target="_blank">Conheça a {reprograma}</a>
+        </li>
+      </ul>
+      <div class="rodape__logo">
+        <img class="img-responsive" src="img/logo-white.png" alt="logo M de Maravilhosa">
+      </div>
+      <div class="rodape__redes-sociais">
+        <a href="https://www.facebook.com/ReprogramaBr/" target="_blank">
+          <img src="img/fb-icone.png" alt="Icone do facebook Reprograma">
+          <span>m. de maravilhosa</span>
+        </a>
+      </div>
+    </div>
+    <div class="rodape__cc">
+      <p>Creative Commons 2019 | Feito com amor por Tereza Letícia</p>
+    </div>
+  </footer>
+  <!-- JS File -->
+  <script src="js/script.js"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
