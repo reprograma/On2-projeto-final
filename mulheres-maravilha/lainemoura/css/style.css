@@ -1,11 +1,3 @@
-/* --- MOBILE FIRST - iPhone 7 - width < 768px --- */
-/*
-unidades preferidas para esse CSS
-margin, padding: rem
-font-size: rem
-width: %
-max-width: % ou px
-*/
 
 * {
   box-sizing: border-box;
@@ -54,12 +46,12 @@ h2{
 }
 
 
-/* define que as imagens tem que ter o tamanho máximo da div mãe */
+
 .img-responsive {
   width: 100%;
 }
 
-/* define o tamanho da caixa */
+
 .container {
   margin: 0 auto;
   width: 100%;
@@ -319,10 +311,7 @@ font-size: 1.4rem;
 
 
 }
- .abuelassection p{/*
-  border-width: medium;
-  border-style: dotted;
-  border-color: rgb(38, 231, 205); */
+ .abuelassection p{
   padding: 2%;
   font-family: 'Slabo 27px', serif;
 }
@@ -605,9 +594,7 @@ border-radius: 5px; }
     border-color: rgb(35, 36, 36);
   }
 
-  /* #fotoautora{
-    margin-left:19rem
-  } */
+
 
   h5 {
     margin-left: 2%;
@@ -649,9 +636,7 @@ border-radius: 5px; }
   margin-left: 32%;
 }
 
- /* #fotoautora{
-  margin-left: 28rem;
-} */
+
 
 }
 
@@ -685,9 +670,7 @@ border-radius: 5px; }
       max-width: 1200px;
   }
 
-  /* #fotoautora{
-    margin-left: 30rem;
-  } */
+
 }
 
 @media (max-width: 360px) {
@@ -740,10 +723,7 @@ border-radius: 5px; }
   border-color:rgb(38, 124, 124);
 
 }
- .abuelassection p{/*
-  border-width: medium;
-  border-style: dotted;
-  border-color: rgb(38, 231, 157);*/
+ .abuelassection p{
   padding: 2%;
   font-size: 2.3vh;
   color: #323534;
@@ -790,8 +770,5 @@ border-radius: 5px; }
   margin-top: 20%;
 }
 
-/* #fotoautora {
-  margin-left: 33.5%;
-} */
 
 }
