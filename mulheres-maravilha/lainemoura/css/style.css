@@ -48,7 +48,7 @@ h2{
   font-family: 'Londrina Shadow', cursive;
   color: rgb(146, 5, 130);
   font-size: 15vh;
-  background: url(/mulheres-maravilha/lainemoura/img/lencoabuelas.jpg);
+  background: url(../img/lencoabuelas.jpg);
   background-position-y:  40%;
   background-position-x:  60%;
 }
@@ -188,7 +188,7 @@ h2{
       linear-gradient(to top, rgba(3, 3, 3, 0.781) 0,
       rgba(196, 61, 223, 0.1) 50%,
       black 100%),
-      url(/mulheres-maravilha/lainemoura/img/estela-de-carlotto.jpg);
+      url(../img/estela-de-carlotto.jpg);
   background-size: cover;
   filter: contrast(100%);
   background-position-y:  40%;
