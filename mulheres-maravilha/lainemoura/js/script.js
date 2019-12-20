@@ -13,24 +13,6 @@ $(function() {
     const titulo = document.querySelector('.maravilhosas__titulo')
     typeWriter(titulo)
 
-
-    // function typeWriter(elemento){
-    //   const textoArray = elemento.innerHTML.split('');
-    //   elemento.innerHTML='';
-    //   textoArray.forEach((letra, i) => {
-    //     setTimeout(function(){
-    //       elemento.innerHTML += letra }, 5*i)
-    //     });
-    //   }
-
-    //   const citacao = document.querySelector('#citacao')
-    //   typeWriter(titulo)
-
-    // typeWriter(citacao)
-
-
-
-
 // Seta da seção autora
 
 
@@ -50,6 +32,9 @@ $(function() {
     $('.seta-cima').hide()
 
 });
+
+
+// NAV
 
 var menuResponsivo = document.getElementById("menuResponsivo");
     var btnResponsivo = document.getElementById("btnResponsivo");
