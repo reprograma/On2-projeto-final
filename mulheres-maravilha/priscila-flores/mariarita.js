@@ -15,7 +15,7 @@
   })();
   
   window.addEventListener("scroll", function() {
-    if (pageYOffset >= 250) {
+    if (pageYOffset >= 768) {
       document.querySelector(".navegacao").style.backgroundColor = "#674582";
       document.querySelector(".navegacao__itens").style.backgroundColor =
         "#674582";

@@ -79,12 +79,11 @@ p {
 }
 
 /* --- NAV --- */
-.navegacao {
+.navegacao1{
     background-color: #f37b5d6b;
     color: white;
     text-transform: uppercase;
     box-shadow: 0px 5px 5px rgba(0,0,0,.2);
-    padding: 1.5rem;
     z-index: 99;
     position: fixed;
     width: 100%;
@@ -98,13 +97,15 @@ p {
 .navegacao__box {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .navegacao__itens {
     transition: all 1s;
     position: absolute;
     right: -800px;
+    display: flex;
+    align-items: center;
     top: 89px;
     width: 100%;
     text-align: center;
@@ -132,8 +133,7 @@ p {
 }
 
 .navegacao__nav {
-    margin-bottom: 3rem;
-    margin-right: 2rem;
+     margin: 0;
 }
 
 .navegacao__nav li {
@@ -198,12 +198,12 @@ p {
     text-align: center;
     padding: 0 24px 0 24px;
     margin: 0%;
-    width: 60vw;
 }
 
 .maravilhosas__alinamento {
    display: block;
 }
+
 
 
 .maravilhosas__box {
@@ -263,7 +263,7 @@ p {
 }
 /* --- FOOTER --- */
 .rodape {
-    background-color: #323534;
+    background-color: #e04b05e0;
     color: white;
     font-size: .9rem;
     display: flex;
@@ -275,7 +275,7 @@ p {
 .rodape__principal {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
     padding: 1.5rem 0;
@@ -317,7 +317,7 @@ p {
 }
 
 .rodape__cc {
-    width: 98%;
+    width: 100%;
     background-color: #292A2A;
     font-size: 1rem;
     opacity: 0.5;
@@ -427,7 +427,7 @@ iframe  {
     }
 
 
-.autora__imagem {
+    .autora__imagem {
     display: none;
 }
         
@@ -489,6 +489,12 @@ iframe  {
 
 /* TABLET PAISAGEM OU LAPTOPS */
 @media (min-width: 1024px) {
+    
+    .navegacao__nav {
+        margin: 0;
+        align-items: center;
+    }
+    
     .principal {
         max-width: 650px;
     }
