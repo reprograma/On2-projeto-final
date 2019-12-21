@@ -11,7 +11,7 @@ $(document).ready( function(){
 });
 
 function big(x) {
-  document.getElementById("titulo-kathe").textContent = " 'Faça seu melhor, mas goste disto, ai você fará seu melhor.'";
+  document.getElementById("titulo-kathe").textContent = " 'Faça o seu melhor, mas goste do que faz, então você fará o seu melhor.'";
   x.style.background = "black";
   x.style.color = "#ffff";
   x.style.fontFamily = "'Roboto Slab', Arial, Helvetica, sans-serif";
