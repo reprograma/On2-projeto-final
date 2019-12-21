@@ -1,7 +1,6 @@
 var quote = document.getElementById("quote");
 window.addEventListener("scroll", gretaQuote);
 function gretaQuote() {
-  console.log(pageYOffset)
 
   if (pageYOffset >= 950) {
     quote.classList.add("quote-show")
