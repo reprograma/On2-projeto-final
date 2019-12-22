@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Oshun</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Roboto+Slab:700|Roboto:400,400i"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../../css/style.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <nav class="navegacao">
+    <div class="navegacao__box container">
+      <a class="navegacao__logo" href="index.html">
+        <img class="img-responsive" src="../../img/logo-white.png" alt="Logo M de Maravilhosa">
+      </a>
+      <div class="navegacao__itens" id="menuResponsivo">
+        <div class="navegacao__nav">
+          <ul>
+            <li>
+              <a href="./index.html">Home</a>
+            </li>
+            <li>
+              <a href="http://www.reprograma.com.br/" target="_blank">Conheça a {reprograma}</a>
+            </li>
+          </ul>
+        </div>
+        <div class="navegacao__redes-sociais">
+          <a href="https://www.facebook.com/ReprogramaBr/" target="_blank">
+            <img src="../../img/icon-facebook.png" alt="Ícone do Facebook">
+          </a>
+          <a href="https://twitter.com/ReprogramaBr" target="_blank">
+            <img src="../../img/icon-twitter.png" alt="Ícone do Twitter">
+          </a>
+          <a href="https://www.instagram.com/reprogramabr/" target="_blank">
+            <img src="../../img/icon-instagram.png" alt="Ícone do Instagram">
+          </a>
+          <a href="https://www.linkedin.com/company/reprogramabr/" target="_blank">
+            <img src="../../img/icon-linkedin.png" alt="Ícone do LinkedIn">
+          </a>
+        </div>
+      </div>
+      <div class="navegacao__menu-hamburguer" id="btnResponsivo">
+        <a href="#">
+          <img src="../../img/menu-nav.png" alt="Menu de navegação">
+        </a>
+      </div>
+    </div>
+  </nav>
+  <header class="header">
+    <div class="container">
+      <div class="principal">
+        <h1 class="principal__titulo">Oshun</h1>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="maravilhosas container" id="mulheres-maravilhosas">
+      <div class="maravilhosas__box">
+        <h2 class="maravilhosas__titulo">Quem ela é?</h2>
+        <div class="maravilhosas__section">
+          <div class="maravilhosa__section-box">
+            <img class="maravilhosas__icon" src="./img/fts01.png">
+            <p class="maravilhosas__description">
+            Origem
+            </p>
+            <p>Também conhecida como Osúm, Osún ou Oxun, ela é a representação da sensibilidade, da delicadeza feminina e da paixão para motivar a essência da vida.</p>
+          </div>
+          <div class="maravilhosa__section-box">
+            <img class="maravilhosas__icon" src="./img/ctr02.png">
+            <p class="maravilhosas__description">Características</p>
+           <p>Deusa do amor, Orixá das águas, Oxum é aquela que mantém em equilíbrio as emoções, da fecundidade e da natureza. Mãe gentil dos povos antigos e dos novos, é ela que renova e intercede por nós em todas as situações.
+           </p>
+          </div>
+          <div class="maravilhosa__section-box">
+            <img class="maravilhosas__icon" src="./img/mitologia02.png">
+            <p class="maravilhosas__description">
+              Mitologia
+            </p>
+            <p>Oxum é filha de Iemanjá e Oxalá. Oxum, Iansã e Obá eram esposas de Xangô.
+               Dizem que Oxum enganou Obá e difundiram este mito porque Oxum é a orixá
+               da beleza e da juventude, ao passo que Obá tem mais idade e protege as
+               idosas. </p>
+          </div>
+        </div>
+      </div>
+      <div class="maravilhosa__citacao">
+        <p>"Para que as boas vibrações espirituais da “Senhora das Águas Doces“<br>
+            Estejam ao meu lado durante todo o dia, Ora Yê Yê Ô!<br>
+            Inspire o meu dia com a mansidão e tranquilidade das águas calmas<br>
+            Para que a bênção de sua energia traga saúde a meu corpo, mente e espírito.<br>
+            Minha “Doce Mamãe Oxum” afaste de meus caminhos aqueles que desejam prejudicar-me,<br>
+            Senhora “Dona do Ouro“, com sua rica energia aproxima de meus caminhos a prosperidade,<br>
+            Para que nada falte a minha vida e de meus familiares.<br>
+            Para que as boas vibrações espirituais da “Senhora das Águas Doces“<br>
+            Estejam ao meu lado durante todo o dia, eu rezo a Oxum, Ora Yê Yê Ô!”
+        </p>
+      </div>
+    </section>
+
+    <section class="autora container">
+
+      <button onmouseover="mOver(this)" onmouseout="mOut(this)"  style="background-color:white; border:4px solid #63458a; width:350px;padding:25px;text-align:center;" >Sobre a autora</button>
+
+      <script>
+      function mOver(obj) {
+        obj.innerHTML = "Débora Canapé,<br> designer e discente de Eng. da Computação."
+      }
+
+
+      function mOut(obj) {
+        obj.innerHTML = "Sobre a autora"
+      }
+
+      </script>
+
+    <div  class="secao-cta" style="
+    font-size: 16px; margin: 4px 2px; padding-top: 30px; color:#63458a">
+      <a href="https://dcswebsite.netlify.com/" target="_blank">Meu portfólio</a>
+     </div>
+
+    <div class="secao-cta" style="padding-top: 30px; color:#63458a" >
+      <a class="secao-cta__btn" href="../../index.html#mulheres-maravilhosas">Ver mais mulheres</a>
+    </div>
+
+
+
+    </section>
+
+
+
+  </main>
+  <footer class="rodape">
+    <div class="rodape__principal">
+      <ul class="rodape__navegacao">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="http://www.reprograma.com.br/" target="_blank">Conheça a {reprograma}</a>
+        </li>
+      </ul>
+      <div class="rodape__logo">
+        <img class="img-responsive" src="../../img/logo-white.png" alt="logo M de Maravilhosa">
+      </div>
+      <div class="rodape__redes-sociais">
+        <a href="https://www.facebook.com/ReprogramaBr/" target="_blank">
+          <img src="../../img/fb-icone.png" alt="Icone do facebook Reprograma">
+          <span>m. de maravilhosa</span>
+        </a>
+      </div>
+    </div>
+    <div class="rodape__cc">
+      <p>Creative Commons 2019 | Feito com amor por Reprograma</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
