@@ -1,0 +1,181 @@
+.citacao {
+    font-size: 5em;
+    color: blueviolet;
+    border:  1px blue;
+    margin: 30px; 
+    margin-top: 70px; 
+    text-align: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    
+}
+
+.neon-animado{
+  animation: neon 3s alternate infinite ease-in-out;
+  color: #ca31cf;
+  font-size: 32px;
+}
+@keyframes neon{
+  from {
+    text-shadow: 0px 0px #8d0650;
+
+  }
+  to {
+    text-shadow: 2px 0px #8d0650;
+
+  }
+}
+
+.sombra-botao:hover {
+
+}
+
+.video {
+    margin: 0 auto;
+    width: 50%;
+}
+
+
+#efeito::after {
+    content: '|';
+    opacity: 1;
+    margin-left: 5px;
+    display: inline-block;
+    animation: blink .7s infinite;
+}
+
+@keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+
+.maravilhosas_subtitle {
+  font-family: 'Poppins', bold sans-serif;
+  color: #8d0650;  
+  text-align: center;
+}
+
+.maravilhosas_description {
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  font-size: 1.7rem;
+  color: rgb(35, 34, 37);
+}
+
+.complemento {
+  padding: 70px;
+  text-align: justify;
+  text-justify: auto;
+}
+
+#mulheres-maravilhosas {
+  padding-top: 100px;
+
+}
+
+
+/*--AUTORA--*/
+.autora {
+  padding: 0 24px;
+  margin: 0 24px;
+  border: 2px solid #63458a;
+  
+  
+  
+}
+
+.video{
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: flex;
+
+
+}
+
+.autora {
+  background-color: #8762b8;
+  color: white;
+  text-align: center;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 2rem;
+  margin: 30px;
+  border-radius: 30px;
+
+
+}
+.autora h5 {
+  font-size: 2.5rem;
+}
+
+.autora h4 {
+  font-size: 2.5rem;
+}
+
+.seta.seta-cima {
+  transition: all .5s;
+  border-bottom: 10px solid white;
+  border-top: 10px solid transparent;
+  margin-bottom: 25px;
+}
+
+.seta {
+  cursor: pointer;
+  width: 0;
+  height: 0;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid white;
+  transition: all .5s;
+  margin: 0 auto;
+}
+
+.escondido {
+  display: none;
+}
+
+.foto-autora {
+ width: 100px;
+ height: 100px; 
+ border-radius: 50%;
+ margin-bottom: 20px;
+}
+
+.legenda-foto {
+  text-align: right;
+}
+
+.maravilhosas_fonte {
+  text-align: left;
+}
+
+.d-block {
+  margin-top: 130px;
+}
+
+.lista_livros {
+  text-align: center;
+  font-size: 1.7rem;
+  color:  rgb(35, 34, 37);
+  margin: 50px;
+
+}
+
+.maravilhosa_livros {
+  font-size: 1.7rem;
+  color: rgb(35, 34, 37);
+  font-family:'Roboto', sans-serif;
+  text-align: center;
+}
+
+.maravilhosas_fonte {
+  font-size: 1rem;
+  text-align: left;
+
+}
