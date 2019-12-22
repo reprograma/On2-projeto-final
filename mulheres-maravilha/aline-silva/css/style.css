@@ -1,0 +1,530 @@
+* {
+  box-sizing: border-box;
+  color: white;
+}
+
+html {
+  font-size: 10px; /* definir uma font-size padrão */
+}
+
+body {
+  background-image: url(https://1.bp.blogspot.com/-_JnF4FO6PT4/XCrVxghYx3I/AAAAAAAAVOg/jTsKd9N7UscxViwSDk9lPqks1z-5CQiiwCLcBGAs/s2560/malala_yousafzai_4k_8k-2560x1440.jpg);
+  background-color: black;
+  font-family: 'Roboto Slab', 'Trebuchet MS', Arial, sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+.img-responsive {
+  width: 100%;
+}
+
+/* define o tamanho da caixa */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+/* --- BOTAO --- */
+.btn {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem 3rem;
+  border-radius: 5px;
+  font-size: 1.3rem;
+}
+
+.btn_roxo {
+  color: white;
+  background-color: #c083b9;
+  display: block;
+  max-width: 250px;
+  text-align: center;
+  transition: all 0.5s;
+  margin: 0 auto;
+}
+
+.btn_roxo:hover,
+.btn_roxo:focus {
+  transform: translateY(-1rem);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  background-color: rgb(192, 156, 188);
+}
+
+.btn_roxo:active {
+  transform: translateY(-3rem);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn_center {
+  margin: 0 auto;
+}
+/* --- NAV --- */
+.navegacao {
+  background-color: #6745826b;
+  color: white;
+  text-transform: uppercase;
+  box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+  padding: 1.5rem;
+  z-index: 99;
+  position: fixed;
+  width: 100%;
+  transition: all 1s;
+}
+
+.navegacao__logo {
+  max-width: 200px;
+}
+
+.navegacao__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navegacao__itens {
+  transition: all 1s;
+  position: absolute;
+  right: -800px;
+  top: 89px;
+  width: 100%;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.navegacao__itens.ativo {
+  display: block;
+  right: 0;
+  top: 89px;
+  width: 100%;
+  text-align: center;
+  padding: 3rem 0;
+  transition: right .5s;
+  background-color: #6745826b;
+  background-blend-mode: multiply;
+}
+
+.navegacao__itens li > a {
+  transition: all .5s;
+}
+
+.navegacao__menu-hamburguer img {
+  border-radius: 5px;
+}
+
+.navegacao__nav {
+  margin-bottom: 3rem;
+  margin-right: 2rem;
+}
+
+.navegacao__nav li {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+.navegacao__redes-sociais {
+  padding-top: 8px;
+}
+
+.navegacao__redes-sociais a {
+  margin: 0 1rem;
+}
+
+.navegacao__redes-sociais img {
+  width: 24px;
+}
+
+/* CONTEUDO */
+.header{
+  color: white;
+  font-family: Montserrat;
+  margin-left: 20px;
+}
+.principal__titulo {
+  font-size: 2.9rem;
+}
+.sobre{
+  color: white;
+}
+.frase{
+  max-width: 700px;
+  font-family: Montserrat;
+  font-size: 13px;
+}
+.sobre_malala{
+  margin: auto;
+  padding: 5rem;
+}
+
+.historia{
+  max-width: 600px;
+  padding: 0rem 0 0 0;
+  padding-right: 20rem;
+  padding-right: 20px;
+  text-align: justify;
+  font-size: 12px;
+  font-family: Montserrat;
+  line-height: 1.7;
+}
+.icone_livro{
+  padding-left: 200px;
+}
+
+.fotoMalala1 {
+  width: 20%;
+  height: 20%;
+}
+
+/* Segunda parte do conteudo, links */
+.projetos_title,  .titles{
+  color: #B3B2B2;
+  text-align: center;
+  padding: 20px;
+}
+.projetos_site{
+  margin: auto;
+  display: block;
+}
+.projetos{
+  margin: 2rem;
+  height: 90vh;
+}
+.titulo_img{
+  color: white;
+  font-size: 14px;
+  font-family: Montserrat;
+}
+.site_img{
+  margin-left: 50px;
+  margin-top: 20px;
+  object-fit: cover;
+  height: 150px;
+  border: solid 2px;
+  border-color: white;
+  border-radius: 5%;
+  box-shadow: 3px 5px 15px 5px black;
+}
+.site_title{
+  font-family: Montserrat;
+  color: white;
+  width: 90%;
+  margin-top: 20px;
+  text-align: justify;
+  line-height: 1.7;
+}
+/* Autora */
+.secao-autora {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.secao-autora__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  border-radius: 5px;
+}
+
+.arrow {
+  cursor: pointer;
+  width: 0;
+  height: 0;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #63458a;
+  transition: all 0.5s;
+}
+
+.arrow-close {
+  cursor: pointer;
+  transition: all 0.5s;
+  width: 0;
+  height: 0;
+  border-bottom: 10px solid #63458a;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid transparent;
+  margin-bottom: 25px;
+}
+
+.secao-autora__foto a:hover {
+  opacity: 0.8;
+}
+
+.secao-autora__dados {
+  color: #63458a;
+  font-family: Montserrat;
+}
+
+.secao-autora__dados p {
+  margin: 15px;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.secao-autora__dados span {
+  font-size: 14px;
+}
+
+.secao-autora a {
+ text-decoration: underline;
+}
+.secao-autora__about {
+  background-color:white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  max-width: 400px;
+  max-height: 200px;
+  margin-bottom: 20px;
+}
+.secao-autora__about img {
+  border-radius: 8px;
+  width: 75px;
+  height: 110px;
+  margin: 10px;
+}
+
+.secao-autora__about p {
+  color: #292A2A;
+  font-family: Montserrat;
+  line-height: 23px;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.closed {
+  display: none;
+  transition: all 1s;
+}
+.opened {
+  display: flex;
+  transition: all 1s;
+}
+
+.secao-cta {
+  text-align: right;
+  padding: 4rem 4rem;
+}
+
+.secao-cta__btn {
+  padding: 10px 25px;
+  border-radius: 5px;
+  background-color: #674582;
+  color: white;
+  font-size: 20px;
+}
+
+.secao-cta__btn:hover {
+  opacity: 0.8;
+}
+/* --- FOOTER --- */
+.rodape {
+  background-color: #323534;
+  color: white;
+  font-size: .9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: .8rem;
+}
+
+.rodape__principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.rodape__principal > * {
+  margin: 1rem 0;
+}
+
+.rodape__navegacao > li {
+  font-size: 1.4rem;
+  margin: 1rem;
+}
+
+.rodape__navegacao a {
+  transition: all .5s;
+}
+
+.rodape__logo {
+  max-width: 200px;
+}
+
+.rodape__redes-sociais a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .5s;
+  padding: 1.5rem 0;
+}
+
+.rodape__redes-sociais img {
+  max-width: 15px;
+  margin-right: .5rem;
+}
+
+.rodape__redes-sociais span {
+  display: flex;
+  font-size: 1.5rem;
+}
+
+.rodape__cc {
+  width: 100%;
+  background-color: #292A2A;
+  font-size: 1rem;
+  opacity: 0.5;
+  text-align: center;
+  padding: 1rem;
+}
+
+/*** MEDIA QUERIES ***/
+/* TABLET */
+@media (min-width: 768px) {
+  /* --- NAV --- */
+  .navegacao__itens {
+    position: static;
+    display: flex;
+    padding: 0;
+    width: auto;
+  }
+
+  .navegacao__nav {
+    margin-bottom: 0;
+  }
+
+  .navegacao__itens ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .navegacao__itens li {
+    font-size: 1.2rem;
+    margin: 0 0.6rem;
+  }
+
+  .navegacao__menu-hamburguer {
+    display: none;
+  }
+
+
+  /* --- HEADER --- */
+  .header {
+    background-size: cover;
+    background-position-y: 0;
+    text-align: left;
+    padding: 5rem 10rem 0 0;
+  }
+
+  .principal__titulo {
+    font-size: 2.9rem;
+    margin-top: 4rem;
+  }
+
+  .principal__sub {
+    font-size: 1.8rem;
+  }
+
+  .principal__btn {
+    margin: 0;
+  }
+
+  /* CONTEUDO */
+ .projetos{
+    height: 50vh;
+    max-width: 600px;
+  }
+  /* --- FOOTER --- */
+  .rodape {
+      padding-top: 0;
+  }
+
+  .rodape__principal {
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+  }
+
+  .rodape__logo img {
+      max-width: 250px;
+  }
+
+  .rodape__cc {
+      font-size: 1.2rem;
+  }
+}
+/* TABLET PAISAGEM OU LAPTOPS */
+@media (min-width: 1024px){
+  .principal {
+      max-width: 650px;
+  }
+
+  .principal__titulo {
+      font-size: 3.5rem;
+  }
+
+  .projetos_site{
+    display: flex;
+    width: 950px;
+  }
+  .projetos{
+    height: 90vh;
+}
+
+/* DESKTOP */
+@media (min-width: 1440px) {
+  .navegacao__box {
+      max-width: 80%;
+  }
+
+  .header {
+      min-height: 40vh;
+      padding: 10rem 16rem;
+  }
+
+  .navegacao__itens li {
+      font-size: 1.5rem;
+      margin: 0 1rem;
+  }
+
+  .principal {
+      max-width: 750px;
+  }
+
+  .principal__titulo {
+      font-size: 4rem;
+  }
+  .projetos_site{
+    display: flex;
+  }
+
+  .container{
+      max-width: 1200px;
+  }
+}
