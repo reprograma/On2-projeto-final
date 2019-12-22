@@ -1,0 +1,457 @@
+/* --- MOBILE FIRST - iPhone 7 - width < 768px --- */
+/*
+unidades preferidas para esse CSS
+margin, padding: rem
+font-size: rem
+width: %
+max-width: % ou px
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px; /* definir uma font-size padrão */
+}
+
+body {
+    font-family: 'Roboto Slab', 'Trebuchet MS', Arial, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+.img-responsive {
+    width: 100%;
+}
+
+/* define o tamanho da caixa */
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+}
+
+/* --- BOTAO --- */
+.btn {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    font-size: 1.8rem;
+}
+
+.btn_roxo {
+    color: white;
+    background-color: #C083B9;
+    display: block;
+    max-width: 250px;
+    text-align: center;
+    transition: all .5s;
+    margin: 0 auto;
+}
+
+.btn_roxo:hover {
+    transform: translateY(-1rem);
+    box-shadow: 0 10px 10px rgba(0,0,0,.2);
+    background-color: rgb(192, 156, 188);
+}
+
+.btn_center {
+    margin: 0 auto;
+}
+
+/* --- NAV --- */
+.navegacao {
+    background-color: #6745826b;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+    padding: 1.5rem;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    transition: all 1s;
+}
+
+.navegacao__logo {
+    max-width: 200px;
+}
+
+.navegacao__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navegacao__itens {
+    transition: all 1s;
+    position: absolute;
+    right: -800px;
+    top: 89px;
+    width: 100%;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.navegacao__itens.ativo {
+    display: block;
+    right: 0;
+    top: 89px;
+    width: 100%;
+    text-align: center;
+    padding: 3rem 0;
+    transition: right .5s;
+    background-color: #6745826b;
+    background-blend-mode: multiply;
+}
+
+.navegacao__itens li > a {
+    transition: all .5s;
+}
+
+.navegacao__menu-hamburguer img {
+    border-radius: 5px;
+}
+
+.navegacao__nav {
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+}
+
+.navegacao__nav li {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.navegacao__redes-sociais {
+    padding-top: 8px;
+}
+
+.navegacao__redes-sociais a {
+    margin: 0 1rem;
+}
+
+.navegacao__redes-sociais img {
+    width: 24px;
+}
+
+/* --- HEADER --- */
+.header {
+    min-height: 70vh;
+    height: 480px;
+    background:
+        linear-gradient(to top, rgba(3, 3, 3, 0.781) 0,
+        rgba(196, 61, 223, 0.418) 50%,
+        black 100%),
+        url(../img/Oshun/Oshun.12.png);
+    background-size: cover;
+    filter: contrast(100%);
+    background-position-y:  5%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    padding: 11rem 2rem 5rem 2rem;
+    color: white;
+}
+
+.principal__titulo {
+    text-transform: uppercase;
+    font-size: 2.7rem;
+    font-weight: 900;
+    text-shadow: 0px 5px 15px black;
+}
+
+/* --- SECTION MARAVILHOSAS --- */
+.maravilhosas__titulo {
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    color: #63458a;
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 24px;
+}
+
+.maravilhosas__box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    color: #63458a;
+    align-items: center;
+    flex-direction: row;
+}
+
+.maravilhosas__section {
+  padding: 0 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.maravilhosas__description {
+  font-size: 24px;
+  text-align: center;
+}
+
+.maravilhosa__citacao {
+  background-color: #63458a;
+  margin: 24px 0;
+  padding: 0 32px;
+}
+
+.maravilhosa__citacao p {
+  color: #ffffff;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 14px;
+  text-align: center;
+}
+
+.maravilhosas__perfil {
+    max-width: 120px;
+    margin: 2rem;
+}
+
+.maravilhosas__perfil img {
+    background-color: #63458a;
+    border-radius: 10px;
+    min-height: 125px;
+    min-width: 125px;
+    object-fit: cover;
+}
+
+.maravilhosas__perfil p {
+    font-size: 1.4rem;
+}
+
+/* -- AUTORA -- */
+.autora {
+  width: 30%;
+  padding: 0 24px;
+  margin-bottom: 32px;
+  background-color:white;
+  padding:25px;
+  text-align:center;
+}
+
+/* --- FOOTER --- */
+.rodape {
+    background-color: #323534;
+    color: white;
+    font-size: .9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: .8rem;
+}
+
+.rodape__principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.rodape__principal > * {
+    margin: 1rem 0;
+}
+
+.rodape__navegacao > li {
+    font-size: 1.4rem;
+    margin: 1rem;
+}
+
+.rodape__navegacao a {
+    transition: all .5s;
+}
+
+.rodape__logo {
+    max-width: 200px;
+}
+
+.rodape__redes-sociais a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+    padding: 1.5rem 0;
+}
+
+.rodape__redes-sociais img {
+    max-width: 15px;
+    margin-right: .5rem;
+}
+
+.rodape__redes-sociais span {
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.rodape__cc {
+    width: 100%;
+    background-color: #292A2A;
+    font-size: 1rem;
+    opacity: 0.5;
+    text-align: center;
+    padding: 1rem;
+}
+
+/*** MEDIA QUERIES ***/
+/* TABLET */
+@media (min-width: 768px) {
+    /* --- NAV --- */
+    .navegacao__itens {
+        position: static;
+        display: flex;
+        padding: 0;
+        width: auto;
+    }
+
+    .navegacao__nav {
+        margin-bottom: 0;
+    }
+
+    .navegacao__itens ul {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .navegacao__itens li {
+        font-size: 1.2rem;
+        margin: 0 .6rem;
+    }
+
+    .navegacao__menu-hamburguer {
+        display: none;
+    }
+
+    /* --- HEADER --- */
+    .header {
+        min-height: 75vh;
+        text-align: left;
+        padding: 5rem 10rem;
+    }
+
+    .principal__titulo {
+        font-size: 2.9rem;
+    }
+
+    .principal__sub {
+        font-size: 1.8rem;
+    }
+
+    .principal__btn {
+        margin: 0;
+    }
+
+    /* --- SECTION MARAVILHOSAS --- */
+    .maravilhosas {
+        padding: 4rem 0;
+    }
+
+    .maravilhosas__box {
+      flex-direction: column;
+    }
+
+    .maravilhosas__section {
+      display: flex;
+    }
+
+    .maravilhosas__box > div {
+        /* max-width: 200px; */
+        margin: 5rem;
+    }
+
+    .maravilhosa__section-box {
+      max-width: 30%;
+    }
+
+    .maravilhosas__perfil img{
+        min-height: 220px;
+    }
+    .maravilhosas__perfil p {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    /* --- FOOTER --- */
+    .rodape {
+        padding-top: 0;
+    }
+
+    .rodape__principal {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+    .rodape__logo img {
+        max-width: 250px;
+    }
+
+    .rodape__cc {
+        font-size: 1.2rem;
+    }
+}
+
+/* TABLET PAISAGEM OU LAPTOPS */
+@media (min-width: 1024px) {
+    .principal {
+        max-width: 650px;
+    }
+
+    .principal__titulo {
+        font-size: 3.5rem;
+    }
+}
+
+/* DESKTOP */
+@media (min-width: 1440px) {
+    .navegacao__box {
+        max-width: 80%;
+    }
+
+    .header {
+        min-height: 90vh;
+        padding: 5rem 16rem;
+    }
+
+    .navegacao__itens li {
+        font-size: 1.5rem;
+        margin: 0 1rem;
+    }
+
+    .principal {
+        max-width: 750px;
+    }
+
+    .principal__titulo {
+        font-size: 4rem;
+    }
+
+    .container{
+        max-width: 1200px;
+    }
+}
