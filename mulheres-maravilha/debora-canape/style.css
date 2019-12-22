@@ -157,7 +157,7 @@ li {
         linear-gradient(to top, rgba(3, 3, 3, 0.781) 0,
         rgba(196, 61, 223, 0.418) 50%,
         black 100%),
-        url(../img/Oshun/Oshun.12.png);
+        url(./img/Oshun.12.png);
     background-size: cover;
     filter: contrast(100%);
     background-position-y:  5%;
