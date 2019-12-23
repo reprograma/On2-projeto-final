@@ -221,7 +221,6 @@ h2{
 }
 
 .maravilhosas__section{
-  display: flex;
   padding: 0 24px;
   font-size: 3vh;
   color: #292A2A;
@@ -632,6 +631,12 @@ border-radius: 5px; }
       font-size: 3.5rem;
   }
 
+  .maravilhosas__section{
+    display: inline-flex;
+    padding: 0 24px;
+    font-size: 5vh;
+    color: #292A2A;}
+
 #abuelasfoto {
   margin-left: 32%;
 }
@@ -670,10 +675,27 @@ border-radius: 5px; }
       max-width: 1200px;
   }
 
+  .maravilhosas__section {
+    display: flex;
+  }
+
+  #citacao{
+    font-size: 1.9rem;
+  }
+
+  #textoprincipal {
+    font-size: 3rem
+  }
+
+  #flyerabuelas{
+    width: 1024px;
+  }
+  
+
 
 }
 
-@media (max-width: 360px) {
+@media (max-width: 414px) {
 #citacao {
   border-color: #25cfe6;
   border-style: dotted;
@@ -753,7 +775,7 @@ border-radius: 5px; }
 }
 
 .maravilhosas__section{
-  display: block;
+  /* display: block; */
   padding: 0 24px;
   font-size: 3vh;
   color: #292A2A;
@@ -767,7 +789,7 @@ border-radius: 5px; }
 
 #textoprincipal {
   padding: 10px;
-  margin-top: 20%;
+  margin-top: 2%;
 }
 
 
