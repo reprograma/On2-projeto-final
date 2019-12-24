@@ -1,0 +1,49 @@
+.mileva-header {
+  background:
+    linear-gradient(to top, rgba(22, 21, 65, 0.91) 0, rgba(45, 24, 50, 0.42) 50%, #000 100%),
+    url(../img/mileva-albert.jpg);
+  background-size: cover;
+  background-position-y: 25%;
+  background-repeat: no-repeat;
+}
+
+.maravilhosas-main {
+  background-color: #19183f;
+  color: white;
+}
+
+.maravilhosas {
+  font-size: 1.5em;
+}
+
+.cntl-icon {
+  border: solid 3px #c083b9;
+  background-color: #c083b9;
+}
+
+.cntl-bar-fill {
+  background-color: #c083b9;
+}
+
+.cntl-content {
+  border-bottom: solid 3px #c083b9;
+  text-align: center;
+}
+
+.cntl-content h4 {
+  font-weight: 1000;
+
+}
+
+.author-container {
+  display: flex;
+  align-items: center;
+}
+
+.author {
+  border-radius: 50%;
+  max-width: 200px;
+  max-height: 150px;
+  float: left;
+  margin-right: 2em;
+}
