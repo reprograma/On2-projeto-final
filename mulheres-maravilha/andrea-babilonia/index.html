@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <title>Marie Curie</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://use.typekit.net/qar6pqn.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=McLaren&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Style/style.css">
+    <script src="https://kit.fontawesome.com/3d084ec093.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <!-- NAV BAR -->
+        <nav class="navbar fixed-top navbar-expand-lg background ">
+            <a class="navbar-brand fonte-texto" href="#">Marie Curie
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link fonte-texto" href="https://www.infoescola.com/biografias/marie-curie/">Biografia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fonte-texto" href="#">Pesquisa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fonte-texto" href="#" data-toggle="modal"
+                            data-target="#modalContato"><br></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fonte-texto" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Prêmios</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Nobel de Física 1903 </a></li>
+                            <li><a class="dropdown-item" href="#">Medalha Matteucci</a></li>
+                            <li><a class="dropdown-item" href="#">Medalha Elliott Cresson</a></li>
+                            <li><a class="dropdown-item" href="#">Nobel de Química 1911</a></li>
+
+
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- CARROSSEL -->
+    <main>
+        <section>
+            <div id="carouselExampleIndicators" class="carousel slide fonte-texto" data-interval="6000"
+                data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2" class="active"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100 imagem-carrossel" src="./assets/sliderone.jpg" alt="Primeiro Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-flex w-100 imagem-carrossel" src="./assets/slidertwo.jpg" alt="Segundo Slide">
+                        <div class="carousel-caption d-none d-md-block">
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 imagem-carrossel" src="./assets/sliderthree.jpg" alt="Terceiro Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+        </section>
+        <article>
+            <h1 class="text-center fonte-texto pt-5"> Cientista Pioneira</h1>
+            <p class="text-center text-secundary fonte-texto">
+                Marie Curie foi uma das mulheres a mudar a história e os rumos do estudo da radioatividade,<br> bem como
+                mostrou ao mundo o valor intelectual e a riquíssima contribuição que as mulheres podem<br> fornecer ao
+                mundo científico, o qual era, outrora, de caráter predominantemente masculino.
+            </p>
+            <p class="text-center text-secundary fonte-texto pb-5">Marie Curie foi a primeira pessoa, e única mulher até
+                a atualidade, a receber o prêmio Nobel duas vezes,<br> um em Física, ao demonstrar a existência da
+                radioatividade natural em 1903, e o outro em Química,<br> pela descoberta de dois novos elementos
+                químicos em 1910.</p>
+        </article>
+        <section>
+            <!-- CARD -->
+            <div class="container-fluid bg-light">
+                <div class="row justify-content-around">
+                    <div class="card borda-card m-3" style="width: 18rem;">
+                        <img class="card-img-top imagem-card" src="./assets/cards-03.jpg"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title fonte-titulo-card">Biografia</h5>
+                            <p class="card-text fonte-texto-card-footer">Marie Curie nasceu em 7 de novembro de 1867, na cidade de Varsóvia, na Polônia. Nascida em um lar em que a ciência era o centro da família, Marie Curie sempre se interessou pelo conhecimento e, com a intenção de produzi-lo, desejava seguir a carreira universitária.</p>
+                            <a href="https://pt.wikipedia.org/wiki/Marie_Curie" target="_blank" class="btn btn-primary fonte-texto-card-footer">Ver mais</a>
+                        </div>
+                    </div>
+                    <div class="card borda-card m-3" style="width: 18rem;">
+                        <img class="card-img-top imagem-card borda-card" src="./assets/cards-05-05.jpg"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title fonte-titulo-card">Pesquisa</h5>
+                            <p class="card-text fonte-texto-card-footer">Na sua tese de doutorado, Marie escolheu o tema raios urânicos, radiação que havia sido descoberta pelo físico inglês Becquerel. Em seu trabalho, ela conseguiu provar que o óxido de urânio é um mineral capaz de eliminar a radiação armazenada nos átomos. A partir dessa pesquisa, Marie descobriu a radioatividade.</p>
+                            <a href="#" class="btn btn-primary fonte-texto-card-footer" target="_blank">Ver mais</a>
+                        </div>
+                    </div>
+                    <div class="card borda-card m-3" style="width: 18rem;">
+                        <img class="card-img-top imagem-card borda-card" src="./assets/cards-04.jpg"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title fonte-titulo-card">Educadora</h5>
+                            <p class="card-text fonte-texto-card-footer">Marie Curie teve também um papel significativo como educadora. Já em 1885, com apenas 18 anos, exercera a profissão de professora particular para filhos de famílias ricas na Polônia. Na França, Marie torna-se professora secundária, sendo a primeira mulher a participar do corpo docente da Universidade de Sorbonne.</p>
+                            <a href="http://www.revistahcsm.coc.fiocruz.br/a-educadora-marie-curie/" target="_blank" class="btn btn-primary fonte-texto-card-footer">Ver
+                                mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-around">
+                    <div class="card borda-card m-3" style="width: 18rem;">
+                        <img class="card-img-top imagem-card" src="./assets/quimica-02.jpg"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title fonte-titulo-card">Prêmio Nobel de Física</h5>
+                            <p class="card-text fonte-texto-card-footer">Com Pierre Curie e Antoine Henri Becquerel, Marie recebeu o Nobel de Física de 1903, "em reconhecimento aos extraordinários resultados obtidos por suas investigações conjuntas sobre os fenômenos da radiação, descoberta por Henri Becquerel". Foi a primeira mulher a receber tal prêmio  e tornou-se a única personalidade a ter recebido dois Prémios Nobel não compartilhados. Foi a única pessoa a receber duas vezes o Prémio Nobel, em áreas científicas distintas.</p>
+                            <a href="https://www.nobelprize.org/prizes/physics/1903/summary/" target="_blank" class="btn btn-primary fonte-texto-card-footer">Ver mais</a>
+                        </div>
+                    </div>
+                    <div class="card borda-card m-3" style="width: 18rem;">
+                        <img class="card-img-top imagem-card borda-card" src="./assets/cards-02.jpg"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title fonte-titulo-card">Prêmio Nobel de Química</h5>
+                            <p class="card-text fonte-texto-card-footer"></p>Nobel de Química de 1911, em reconhecimento pelos seus serviços para o avanço da química, com o descobrimento dos novos elementos, o isolamento do rádio e o estudo da natureza dos compostos. Não patenteou o processo de isolamento do rádio, permitindo a investigação das propriedades por toda a comunidade científica.
+                                Foi a primeira pessoa a receber duas vezes o Prêmio Nobel. </p>
+                            <a href="https://www.nobelprize.org/prizes/chemistry/1911/summary/" target="_blank" class="btn btn-primary fonte-texto-card-footer">Ver mais</a>
+                        </div>
+                    </div>
+                    <div class="card borda-card m-3" style="width: 18rem;">
+                        <img class="card-img-top imagem-card borda-card" src="./assets/cards-01.jpg"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title fonte-titulo-card">Novos Elementos Químicos</h5>
+                            <p class="card-text fonte-texto-card-footer"> Rádio e Polônio, no ano de 1898, Marie e Pierre Curie apresentam ao mundo científico a descoberta de dois novos elementos químicos, o polônio e o rádio. Com essas pesquisas, Pierre, em particular, verificou que a radiação podia matar células de tecido doente, ou seja, iniciou o estudo da radioterapia. O elemento 96 da tabela periódica, o Cúrio, símbolo Cm foi batizado em honra do Casal Curie.</p>
+                            <a href="https://reprograma.com.br/" target="_blank" class="btn btn-primary fonte-texto-card-footer">Ver
+                                mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Modal -->
+    <div class="modal fade" id="modalContato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title " id="exampleModalLabel">Contato</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- FORM -->
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="andrea.m.babilonia@gmail.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Selecione o tipo de
+                                comentário</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>Dúvidas</option>
+                                <option>Sugestōes</option>
+                                <option>Elogios</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Escreva aqui seu
+                                comentário</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid pt-5" id="footer">
+        <div>
+            <p class="text-center fonte-texto-card-footer">About Me</p>
+        </div>
+        <div class="row justify-content-center m-1" id="footer-redes">
+            <div><i class="m-5 fab fa-github-square"></i></div>
+            <div><i class="m-5 fab fa-linkedin"></i> </div>
+            <div><i class="m-5 fab fa-behance-square"></i> </div>
+        </div>
+        <div class="text-center fonte-texto-footer pt-1">
+            <small>Copyright © Andrea Babilonia {Reprograma} <time datetime="2019">2019</time></small>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script>
+        document.getElementById("btn-primary").addEventListener("onclick", onmousedown)
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
