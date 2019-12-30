@@ -156,7 +156,7 @@ li {
         linear-gradient(to top, rgba(3, 3, 3, 0.781) 0,
         rgba(196, 61, 223, 0.418) 50%,
         black 100%),
-        url(/mulheres-maravilha/marcela-rechtman/img/annefrank.jpg);
+        url(../img/annefrank.jpg);
     background-size: cover;
     filter: contrast(100%);
     background-position-y:  5%;
