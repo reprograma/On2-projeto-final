@@ -1,0 +1,75 @@
+.container{
+  font-size: 17px;
+}
+
+.nome{
+  font-size: 20px;
+  color: rgb(228, 124, 38);
+}
+
+.perfil{
+  display: grid;
+  grid-template-columns: auto 300px;
+  grid-column-gap: 50px;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.perfil_img img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+h3{
+  font-size: 28px;
+  color: rgb(228, 124, 38);
+}
+
+.tribo_img img{
+  width: 100%;
+  margin: 30px 0;
+}
+
+.tribo{
+  margin: 40px 0;
+}
+
+.frase{
+  margin: 50px 0;
+  border: 2px solid black;
+  padding: 18px;
+  width: 80%;
+  margin: 0 auto;
+  font-style: oblique;
+  text-align: center;
+  font-size: 22px;
+}
+
+.tribo_celia{
+  margin: 50px 0;
+}
+
+.redes{
+  margin: 50px 0;
+}
+
+.autora{
+  margin-bottom: 40px;
+}
+
+@media (max-width: 1024px){
+  .container{
+    padding: 0 30px;
+  }
+
+  .perfil{
+    display: block;
+  }
+
+  .perfil_img{
+    text-align: center;
+    margin-top: 40px;
+  }
+}

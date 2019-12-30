@@ -171,7 +171,6 @@ li {
   text-align: center;
   padding: 11rem 2rem 5rem 2rem;
   color: white;
-
 }
 
 .principal__titulo {
@@ -374,6 +373,46 @@ li {
    margin: 20px;
  }
 
+.secao-diva__titulo_esq {
+  margin-right: auto;
+}
+
+.secao-diva p {
+  color: #63458a;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.secao-diva__introducao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.secao-diva__foto-perfil {
+  max-width: 18rem;
+  margin: 1rem;
+}
+
+.secao-diva__citacao p {
+  transition: all .5s;
+  font-weight: bold;
+  border: 1px solid #63458a;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.7rem;
+}
+
+.secao-diva__citacao p:hover {
+  transform: scale(1.1);
+}
+
+.secao-diva__historia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 0;
+}
 
 /* --- AUTORA --- */
 .secao-autora {
@@ -605,6 +644,22 @@ li {
 
   }
 
+
+  .secao-diva__introducao {
+      flex-direction: row;
+      margin: 3rem 0;
+  }
+  .secao-diva__foto-perfil {
+      max-width: 100%;
+      margin: 0 4rem;
+  }
+  .secao-diva p {
+      font-size: 1.7rem;
+  }
+  .secao-diva__citacao p {
+      font-size: 2.5rem;
+      padding: 4rem;
+  }
   .secao-autora__about {
       width: 400px;
       flex-direction: row;
