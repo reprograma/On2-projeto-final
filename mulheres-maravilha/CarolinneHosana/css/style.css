@@ -155,13 +155,13 @@ li {
 
 /* --- HEADER --- */
 .header {
-  min-height: 70vh;
-  height: 480px;
+  min-height: 60vh;
+  height: 550px;
   background:
       linear-gradient(to top, rgba(3, 3, 3, 0.781) 0,
       rgba(196, 61, 223, 0.418) 50%,
       black 100%),
-      url(../img/turma6.jpeg);
+      url(../img/banner.jpg);
   background-size: cover;
   filter: contrast(100%);
   background-position-y:  5%;
@@ -177,7 +177,7 @@ li {
   text-transform: uppercase;
   font-size: 2.5rem;
   font-weight: 900;
-  text-shadow: 0px 5px 15px black;
+  text-shadow: 0px 5px 15px rgb(182, 49, 49);
 }
 
 .principal__sub {
@@ -343,22 +343,35 @@ li {
   text-transform: uppercase;
 }
 
-/* --- PEFIL DIVA--- */
-.secao-diva {
-  display: flex;
+/* --- PEFIL MARAVILHOSA--- */
+.maravilhosas__box {
+  display: flow-root;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: right;
   padding: 5rem 2rem;
-  margin: 0 auto;
+  margin: 100 auto;
 }
 
-.secao-diva__titulo {
+.maravilhosas__titulo {
   text-align: center;
   font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
   font-size: 2rem;
   color: #674582;
 }
+
+.maravilhosas p {
+  color: #63458a;
+  font-size: 1.2rem;
+  line-height: 2.2;
+  text-align: justify;
+  display: grid;
+ }
+
+ .maravilhosas__descricao {
+   float: left;
+   margin: 20px;
+ }
 
 .secao-diva__titulo_esq {
   margin-right: auto;
@@ -575,6 +588,7 @@ li {
   .maravilhosas__perfil p {
       font-size: 1.5rem;
       margin-top: 1rem;
+      float: left;
   }
 
   /* --- FOOTER --- */
@@ -617,6 +631,20 @@ li {
   .principal {
       max-width: 650px;
   }
+  .maravilhosas__introducao {
+      flex-direction: row;
+      margin: 3rem 0;
+  }
+  .maravilhosas__foto-perfil {
+      max-width: 100%;
+      margin: 0 4rem;
+  }
+  .maravilhosas p {
+      font-size: 1.2rem;
+
+  }
+
+
   .secao-diva__introducao {
       flex-direction: row;
       margin: 3rem 0;
